@@ -1,0 +1,14 @@
+{
+  "id": "2a60d868-7ce5-49d5-bc16-3dae2014ac49",
+  "name": "Send email to otto4444@gmail.com when submitted",
+  "form": "db45f250-cd63-4858-8bcb-5e282e19768b",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "otto4444@gmail.com",
+    "Subject": "the form Formulario Contacto was submitted",
+    "Message": "the form Formulario Contacto was submitted, this is the list of values it contained, you can turn this email off under workflows in Umbraco Contour"
+  },
+  "sortOrder": 0
+}

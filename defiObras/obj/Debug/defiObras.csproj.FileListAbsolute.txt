@@ -1,0 +1,177 @@
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\csc.exe
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\vbc.exe
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\VBCSCompiler.exe
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\roslyn\VBCSCompiler.exe.config
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\defiObras.dll.config
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\defiObras.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\defiObras.pdb
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Collections.Immutable.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Reflection.Metadata.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\AutoMapper.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\businesslogic.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\ClientDependency.Core.pdb
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\ClientDependency.Core.Mvc.pdb
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\cms.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\controls.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Examine.pdb
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\HtmlAgilityPack.pdb
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\HtmlAgilityPack.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\interfaces.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Lucene.Net.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.Owin.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.Owin.Security.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\MiniProfiler.pdb
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\MiniProfiler.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Newtonsoft.Json.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\SQLCE4Umbraco.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Net.Http.Formatting.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.Helpers.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.Http.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.Http.WebHost.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.Mvc.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.Razor.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.WebPages.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.WebPages.Deployment.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\System.Web.WebPages.Razor.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\umbraco.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Umbraco.Core.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\umbraco.DataLayer.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\umbraco.editorControls.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\umbraco.MacroEngines.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Umbraco.ModelsBuilder.pdb
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\umbraco.providers.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\Umbraco.Web.UI.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\bin\UmbracoExamine.xml
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\obj\Debug\defiObras.csprojResolveAssemblyReference.cache
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\obj\Debug\defiObras.dll
+c:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\obj\Debug\defiObras.pdb
+D:\defiObras\defiObras\bin\roslyn\csc.exe
+D:\defiObras\defiObras\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\defiObras\defiObras\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\defiObras\defiObras\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\defiObras\defiObras\bin\roslyn\vbc.exe
+D:\defiObras\defiObras\bin\roslyn\VBCSCompiler.exe
+D:\defiObras\defiObras\bin\roslyn\VBCSCompiler.exe.config
+D:\defiObras\defiObras\bin\defiObras.dll.config
+D:\defiObras\defiObras\bin\defiObras.dll
+D:\defiObras\defiObras\bin\defiObras.pdb
+D:\defiObras\defiObras\bin\System.Collections.Immutable.dll
+D:\defiObras\defiObras\bin\System.Reflection.Metadata.dll
+D:\defiObras\defiObras\bin\AutoMapper.xml
+D:\defiObras\defiObras\bin\businesslogic.xml
+D:\defiObras\defiObras\bin\ClientDependency.Core.pdb
+D:\defiObras\defiObras\bin\ClientDependency.Core.Mvc.pdb
+D:\defiObras\defiObras\bin\cms.xml
+D:\defiObras\defiObras\bin\controls.xml
+D:\defiObras\defiObras\bin\Examine.pdb
+D:\defiObras\defiObras\bin\HtmlAgilityPack.pdb
+D:\defiObras\defiObras\bin\HtmlAgilityPack.xml
+D:\defiObras\defiObras\bin\interfaces.xml
+D:\defiObras\defiObras\bin\Lucene.Net.xml
+D:\defiObras\defiObras\bin\Microsoft.AspNet.Identity.Core.xml
+D:\defiObras\defiObras\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\defiObras\defiObras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\defiObras\defiObras\bin\Microsoft.Owin.xml
+D:\defiObras\defiObras\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\defiObras\defiObras\bin\Microsoft.Owin.Security.xml
+D:\defiObras\defiObras\bin\Microsoft.Owin.Security.Cookies.xml
+D:\defiObras\defiObras\bin\Microsoft.Owin.Security.OAuth.xml
+D:\defiObras\defiObras\bin\MiniProfiler.pdb
+D:\defiObras\defiObras\bin\MiniProfiler.xml
+D:\defiObras\defiObras\bin\Newtonsoft.Json.xml
+D:\defiObras\defiObras\bin\SQLCE4Umbraco.xml
+D:\defiObras\defiObras\bin\System.Net.Http.Formatting.xml
+D:\defiObras\defiObras\bin\System.Web.Helpers.xml
+D:\defiObras\defiObras\bin\System.Web.Http.xml
+D:\defiObras\defiObras\bin\System.Web.Http.WebHost.xml
+D:\defiObras\defiObras\bin\System.Web.Mvc.xml
+D:\defiObras\defiObras\bin\System.Web.Razor.xml
+D:\defiObras\defiObras\bin\System.Web.WebPages.xml
+D:\defiObras\defiObras\bin\System.Web.WebPages.Deployment.xml
+D:\defiObras\defiObras\bin\System.Web.WebPages.Razor.xml
+D:\defiObras\defiObras\bin\umbraco.xml
+D:\defiObras\defiObras\bin\Umbraco.Core.xml
+D:\defiObras\defiObras\bin\umbraco.DataLayer.xml
+D:\defiObras\defiObras\bin\umbraco.editorControls.xml
+D:\defiObras\defiObras\bin\umbraco.MacroEngines.xml
+D:\defiObras\defiObras\bin\Umbraco.ModelsBuilder.pdb
+D:\defiObras\defiObras\bin\umbraco.providers.xml
+D:\defiObras\defiObras\bin\Umbraco.Web.UI.xml
+D:\defiObras\defiObras\bin\UmbracoExamine.xml
+D:\defiObras\defiObras\obj\Debug\defiObras.csprojResolveAssemblyReference.cache
+D:\defiObras\defiObras\obj\Debug\defiObras.dll
+D:\defiObras\defiObras\obj\Debug\defiObras.pdb
+G:\defiObras\defiObras\bin\roslyn\csc.exe
+G:\defiObras\defiObras\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\defiObras\defiObras\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\defiObras\defiObras\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\defiObras\defiObras\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\defiObras\defiObras\bin\roslyn\vbc.exe
+G:\defiObras\defiObras\bin\roslyn\VBCSCompiler.exe
+G:\defiObras\defiObras\bin\roslyn\VBCSCompiler.exe.config
+G:\defiObras\defiObras\bin\defiObras.dll.config
+G:\defiObras\defiObras\bin\defiObras.dll
+G:\defiObras\defiObras\bin\defiObras.pdb
+G:\defiObras\defiObras\bin\System.Collections.Immutable.dll
+G:\defiObras\defiObras\bin\System.Reflection.Metadata.dll
+G:\defiObras\defiObras\bin\AutoMapper.xml
+G:\defiObras\defiObras\bin\businesslogic.xml
+G:\defiObras\defiObras\bin\ClientDependency.Core.pdb
+G:\defiObras\defiObras\bin\ClientDependency.Core.Mvc.pdb
+G:\defiObras\defiObras\bin\cms.xml
+G:\defiObras\defiObras\bin\controls.xml
+G:\defiObras\defiObras\bin\Examine.pdb
+G:\defiObras\defiObras\bin\HtmlAgilityPack.pdb
+G:\defiObras\defiObras\bin\HtmlAgilityPack.xml
+G:\defiObras\defiObras\bin\interfaces.xml
+G:\defiObras\defiObras\bin\Lucene.Net.xml
+G:\defiObras\defiObras\bin\Microsoft.AspNet.Identity.Core.xml
+G:\defiObras\defiObras\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\defiObras\defiObras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\defiObras\defiObras\bin\Microsoft.Owin.xml
+G:\defiObras\defiObras\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\defiObras\defiObras\bin\Microsoft.Owin.Security.xml
+G:\defiObras\defiObras\bin\Microsoft.Owin.Security.Cookies.xml
+G:\defiObras\defiObras\bin\Microsoft.Owin.Security.OAuth.xml
+G:\defiObras\defiObras\bin\MiniProfiler.pdb
+G:\defiObras\defiObras\bin\MiniProfiler.xml
+G:\defiObras\defiObras\bin\Newtonsoft.Json.xml
+G:\defiObras\defiObras\bin\SQLCE4Umbraco.xml
+G:\defiObras\defiObras\bin\System.Net.Http.Formatting.xml
+G:\defiObras\defiObras\bin\System.Web.Helpers.xml
+G:\defiObras\defiObras\bin\System.Web.Http.xml
+G:\defiObras\defiObras\bin\System.Web.Http.WebHost.xml
+G:\defiObras\defiObras\bin\System.Web.Mvc.xml
+G:\defiObras\defiObras\bin\System.Web.Razor.xml
+G:\defiObras\defiObras\bin\System.Web.WebPages.xml
+G:\defiObras\defiObras\bin\System.Web.WebPages.Deployment.xml
+G:\defiObras\defiObras\bin\System.Web.WebPages.Razor.xml
+G:\defiObras\defiObras\bin\umbraco.xml
+G:\defiObras\defiObras\bin\Umbraco.Core.xml
+G:\defiObras\defiObras\bin\umbraco.DataLayer.xml
+G:\defiObras\defiObras\bin\umbraco.editorControls.xml
+G:\defiObras\defiObras\bin\umbraco.MacroEngines.xml
+G:\defiObras\defiObras\bin\Umbraco.ModelsBuilder.pdb
+G:\defiObras\defiObras\bin\umbraco.providers.xml
+G:\defiObras\defiObras\bin\Umbraco.Web.UI.xml
+G:\defiObras\defiObras\bin\UmbracoExamine.xml
+G:\defiObras\defiObras\obj\Debug\defiObras.csprojResolveAssemblyReference.cache
+G:\defiObras\defiObras\obj\Debug\defiObras.dll
+G:\defiObras\defiObras\obj\Debug\defiObras.pdb

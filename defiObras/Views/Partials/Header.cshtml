@@ -1,0 +1,67 @@
+﻿@inherits UmbracoTemplatePage
+
+@* Hear we're going to get our picture full-screen, and our company name - slogan.
+    We're going to build a responsive nav *@
+
+@foreach (var item in CurrentPage.Children)
+{
+    if (item.Name == "Cabecera")
+    {
+
+        var nombreEmpresa = item.nombreEmpresa;
+        var logo = item.logoEmpresa;
+        var eslogan = item.esloganEmpresa;
+        var menu = item.menuNavegacion;
+        var logoEmpresa = item.logoEmpresa;
+        var fondo = item.imagenFondo;
+
+
+        <script>
+            $(window).scroll(function(){
+                var vscroll = $(this).scrollTop();
+                if (vscroll > 5){ 		
+                    $('.navbar').addClass('blueNav');
+                }
+                else{
+
+                    $('.navbar').removeClass('blueNav');
+                    }
+            });
+        </script>
+            
+    <header>
+        <a href="#" class="scrolltop"></a>
+        <script>
+            $(document).ready(function () {
+                $("header").css("background-image", "url(@fondo)");
+            });
+        </script>
+        <nav class="personal navbar navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="center collapse navbar-collapse">
+                <ul id="nave" class="nav navbar-nav ">
+                    @foreach (var items in item.menuNavegacion.Split(','))
+                    {
+                        <li><a href="#@items">@items</a></li>
+                    }
+                </ul>
+            </div>
+        </nav>
+        <div id="foo">
+            <img id="logoEmpresa" src="@logoEmpresa" alt="logo">
+            <p id="nombreEmpresa">@nombreEmpresa</p>
+            <p id="esloganEmpresa">@eslogan</p>
+        </div>
+    </header>
+    }
+}
+
+
+

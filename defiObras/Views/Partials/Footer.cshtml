@@ -1,0 +1,35 @@
+﻿@*@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@foreach (var item in CurrentPage.Children)
+{
+    if (item.Name == "Footer")
+    {
+        var title = item.title;
+        var logo = item.logo;
+        var copyright = item.copyright;
+        <footer>
+            <div class="center-block">
+                <h3 class="text-center">@title</h3>
+                <img class="center-block " src="@logo" alt="logo">
+                <div class="container ">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 footerDiv">
+
+                        <nav class="nav-footer">
+                            <ul class="pull-right">
+                                @foreach (var items in item.menu.Split(','))
+                                {
+                                    <li><a href="#@items">@items</a></li>
+                                }
+                            </ul>
+                        </nav>
+                       
+                    </div>
+                    <div class="col-md-4">
+                        @copyright
+                    </div>
+                </div>
+            </div>
+        </footer>
+    }
+}*@

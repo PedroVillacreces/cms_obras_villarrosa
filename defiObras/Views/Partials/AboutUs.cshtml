@@ -1,0 +1,20 @@
+﻿@inherits UmbracoTemplatePage
+@* This´s a section about the company, the name company and a short description about them *@
+
+@foreach (var item in CurrentPage.Children)
+{
+    if (item.Name == "Sobre Nosotros")
+    {
+        var url = item.nombreEmpresa;
+        var url2 = item.textoPresentacion;
+        <section class="jumbotron">
+            <p id="nEmpresa">@url</p>
+            @Html.Raw(url2)           
+        </section>
+        <div style="margin-bottom:-5px;">
+            <svg style="height: auto; width: 100%;" viewBox="0 0 1170 168">
+                <path transform="matrix(1,0,0,1,-40,0)" style="height: 233px; width: 100%;" data-svg-origin="30 0" d="M1217.74167,0 L1217.74167,169.112261 L30,169.112261 L1217.74167,0 Z" />
+            </svg>
+        </div>
+    }
+}

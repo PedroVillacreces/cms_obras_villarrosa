@@ -1,0 +1,55 @@
+﻿@inherits UmbracoTemplatePage
+
+@* Hear we're going to get our picture full-screen, and our company name - slogan.
+    We're going to build a responsive nav *@
+
+@foreach (var item in CurrentPage.Children)
+{
+    if (item.Name == "Habilidades")
+    {
+        var titulos = item.tituloDeSeccion;
+        <script>
+            $(document).ready(function () {
+                $('.graphic').hide(0);
+                $(window).scroll(function () {
+                    var windowHeight = $(window).scrollTop();
+                    var contenido2 = $(".graphic").offset();
+                    contenido2 = contenido2.top;
+                    if (windowHeight >= contenido2) {
+                        $('.graphic').show(500);
+                    } 
+                });
+
+            });
+
+        </script>
+        <section class="container habilidades">
+            <h2>@titulos</h2>
+            @foreach (var boxes in item.Children)
+            {
+                if (boxes.Name == "Materiales")
+                {
+                    var title = boxes.habilidad;
+                    var icon = boxes.iconosHabilidad;
+                    <div class="col-md-3 col-sm-6">
+
+                        <img class="graphic" src ="@icon" alt="icono" />
+                        <p id="title">@title</p>
+                        <ul>
+                            @foreach (var habilidades in boxes.listaHabilidades.Split(','))
+                            {
+                                <li class="fa fa-building fa-lg"> @habilidades</li>
+
+                            }
+                        </ul>
+                    </div>
+                }
+            }
+        </section>
+        <div class="triangulo" style="margin-bottom:-5px;">
+            <svg style="height: auto; width: 100%;" viewBox="0 0 1170 168" class="divider" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <path transform="matrix(1,0,0,1,-40,0)" style="height: auto; width: 100%;" data-svg-origin="30 0" d="M1217.74167,0 L1217.74167,169.112261 L30,169.112261 L1217.74167,0 Z" ></path>
+            </svg>
+        </div>
+    }
+}

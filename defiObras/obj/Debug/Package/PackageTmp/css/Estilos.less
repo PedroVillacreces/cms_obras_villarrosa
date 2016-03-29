@@ -1,0 +1,322 @@
+﻿html {
+    height: 100% !important;
+
+    body {
+        height: 100% !important;
+
+        header {
+            height: 100%;
+            background-size: cover;
+            width: 100%;
+            /*Display Central*/
+            display: flex;
+            justify-content: center;
+            -ms-flex-direction: column;
+            -webkit-flex-direction: column;
+            flex-direction: column;
+            align-items: center;
+            /* navigation main */
+            nav.blueNav {
+                background-color: black !important;
+            }
+
+            nav {
+
+
+                div.center.collapse.navbar-collapse {
+                    display: flex !important;
+                    justify-content: center;
+
+                    ul#nave {
+                        float: right;
+                        margin: 0;
+                        padding: 0;
+                        position: relative;
+
+                        li {
+
+                            a {
+                                color: white;
+                            }
+                            /* doing hover on the links */
+                            a:hover {
+                                font-weight: bold;
+                                font-size: 1.5em;
+                                color: white;
+                                background-color: rgba(0, 0, 0, 0) !important;
+                                -webkit-transition: all 1s ease;
+                                -moz-transition: all 1s ease;
+                                -o-transition: all 1s ease;
+                                -ms-transition: all 1s ease;
+                                transition: all 1s ease;
+                            }
+                        }
+                    }
+                }
+            }
+            /* central image on the full screen image */
+            div#foo {
+                display: flex;
+                -ms-flex-direction: column;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border: 4px solid white;
+                padding-top: 20px;
+
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                p#nombreEmpresa {
+                    font-size: 1.8em;
+                    color: white;
+                    margin-top: 10px;
+                    font-weight: bolder;
+                }
+
+                p#esloganEmpresa {
+                    font-size: 1.5em;
+                    color: white;
+                    padding: 5px 100px;
+                    text-align: center;
+                    font-weight: bolder;
+                }
+            }
+        }
+        /* section about us */
+        section.jumbotron {
+            background: none !important;
+            padding-top: 20px;
+            padding-bottom: 0 !important;
+
+            p#nEmpresa {
+                font-size: 1.8em !important;
+                text-align: center;
+                padding: 20px;
+                /*border: 1px solid #000;*/
+                width: 35%;
+                margin: 40px auto 40px auto;
+                background-color: black;
+                color: white;
+                font-weight: bolder;
+            }
+        }
+        /* jobs gallery */
+        section.container#trabajos {
+
+            h2 {
+                margin: 30px auto 30px auto;
+                text-align: center;
+                color: white;
+                background-color: black;
+                font-weight: bolder;
+                padding: 20px;
+                width: 35%;
+                font-size: 1.8em !important;
+            }
+
+            div.col-md-4 {
+                display: flex;
+                justify-content: center;
+                -ms-flex-direction: row !important;
+                -webkit-flex-direction: row !important;
+                flex-direction: row !important;
+                margin-bottom: 30px;
+                font-size: 1.8em !important;
+
+                p {
+                    display: none;
+                    position: absolute;
+                    left: 14%;
+                    width: 272px;
+                    height: 100%;
+                    text-align: center;
+                    padding: 15%;
+                }
+            }
+
+            div.col-md-4:hover {
+                p {
+                    display: block !important;
+                    background-color: hsla(0, 0%, 78.4%, 0.50);
+                }
+            }
+        }
+        /* section imagen- title - list */
+        section.container.habilidades {
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+
+            h2 {
+                text-align: center;
+                color: black;
+                background-color: white;
+                width: 35%;
+                margin: 40px auto;
+                padding: 20px;
+                font-size: 1.8em !important;
+                font-weight: bolder;
+            }
+
+            .col-md-3.col-sm-6 {
+                display: flex !important;
+                -ms-flex-direction: column !important;
+                -webkit-flex-direction: column !important;
+                flex-direction: column !important;
+                align-items: center;
+
+                img {
+                    width: 150px;
+                }
+
+                p#title {
+                    font-size: 1.4em;
+                    color: white;
+                    text-align: center;
+                    padding: 10px;
+                    margin-bottom: 0;
+                }
+
+                ul {
+                    margin-bottom: 30px;
+                    /*margin-top: 10px;*/
+                    li {
+                        display: block;
+                        margin: 10px;
+                        color: white;
+                        font-size: 1.2em;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+        /* triangle for final of the sections */
+        div.triangulo {
+            background-color: black;
+
+            svg.divider {
+                height: auto;
+                width: 100%;
+                fill: white;
+                display: block;
+            }
+        }
+        /* Questionary Section */
+        section.container#form {
+            margin: 30px;
+            width: 100%;
+            margin-left: auto !important;
+            margin-right: auto;
+
+
+            h2 {
+                text-align: center;
+                background-color: black;
+                color: white;
+                width: 35%;
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 0;
+                margin-bottom: 50px;
+                font-size: 1.8em !important;
+                font-weight: bolder;
+            }
+
+            form.form-horizontal {
+                div.form-group {
+                    margin-right: auto !important;
+                    margin-left: 4% !important;
+
+                    label.control-label {
+                        padding-top: 7px;
+                        margin-bottom: 0;
+                        text-align: right;
+                        padding-left: 5px;
+                        padding-right: 10px;
+                    }
+
+                    div.col-sm-10 {
+                        input.form-control {
+                            width: 78% !important;
+                            border: 1px solid black;
+                        }
+
+                        textarea {
+                            width: 78% !important;
+                        }
+                    }
+                }
+            }
+        }
+        /*contact details section*/
+        section.container#contacto {
+            background-color: black;
+            color: white;
+            width: 100%;
+
+            h2 {
+                text-align: center;
+                color: black;
+                background-color: white;
+                width: 35%;
+                padding: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 30px;
+                margin-bottom: 50px;
+                font-size: 1.8em !important;
+                font-weight: bolder;
+            }
+
+            div.col-md-4 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                -ms-flex-direction: column !important;
+                -webkit-flex-direction: column !important;
+                flex-direction: column !important;
+                margin-bottom: 30px;
+                font-size: 1.8em !important;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+        /* Social Media Section */
+        h2#redes {
+            padding: 20px;
+            font-size: 1.8em !important;
+            background-color: black;
+            color: white;
+            width: 35%;
+            margin: 20px auto 50px auto;
+            font-weight: bolder;
+            text-align: center;
+        }
+
+        section.sociales {
+            display: flex;
+            justify-content: space-between;
+            -ms-flex-direction: row;
+            -webkit-flex-direction: row;
+            flex-direction: row;
+            align-items: center;
+
+            img {
+                width: 100px;
+                margin-bottom: 50px;
+                /*position:absolute;
+                left:0px;
+                top:0px;*/
+            }
+        }
+    }
+}

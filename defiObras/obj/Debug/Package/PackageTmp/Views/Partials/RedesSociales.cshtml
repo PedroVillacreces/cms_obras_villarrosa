@@ -1,0 +1,40 @@
+﻿@inherits UmbracoTemplatePage
+
+@*section for social media icons*@
+
+@foreach (var item in CurrentPage.Children)
+{
+    if (item.Name == "Redes Sociales")
+    {
+
+        var title = item.tituloSeccion;
+        <h2 id="redes">@title</h2>
+        <section class="container sociales">
+
+            @foreach (var boxes in item.Children)
+            {
+                var logo = boxes.imagenSocial;
+                var link = boxes.linkSocial;
+                var logoColor = boxes.imagenColor;
+
+                <a class="socialIcon" href="@link">
+                    <img class="img-responsive" src="@logo" onmouseover="this.src = '@logoColor'" onmouseout="this.src = '@logo'" alt="social" />
+                </a>
+
+                @*<script>
+                        $(document).ready(function () {
+                            $(".iconSocial").mouseover(function () {
+                                $(".iconSocial").attr("src", "@logoColor");
+                            });
+
+                            $(".iconSocial").mouseout(function () {
+                                $(".iconSocial").attr("src", "@logo");
+                            });
+                        });
+                    </script>*@
+            }
+
+        </section>
+    }
+}
+

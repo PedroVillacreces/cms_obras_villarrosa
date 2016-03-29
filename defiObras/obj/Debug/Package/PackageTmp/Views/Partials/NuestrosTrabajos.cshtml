@@ -1,0 +1,29 @@
+﻿@inherits UmbracoTemplatePage
+
+@*this section is a gallery of the jobs pictures*@
+
+@foreach (var item in CurrentPage.Children)
+{
+    if (item.Name == "Nuestros Trabajos")
+    {
+        var seccionTrabajos = item.tituloSeccion;
+        <section class="container" id="trabajos">
+            <h2>@seccionTrabajos</h2>
+            @foreach (var itemChildren in item.Children)
+            {
+                var imagenes = itemChildren.fotografia;
+                var textoHide = itemChildren.textoImagen;
+                <div class="col-md-4 col-sm-2">
+                    <img src="@imagenes" alt="trabajo" />
+                    <p>@textoHide</p>
+                </div>
+            }
+        </section>
+        <div>
+            <svg style="display:block; height: auto; width: 100%;" viewBox="0 0 1170 168">
+                <path transform="matrix(1,0,0,1,-40,0)" style="height: auto; width: 100%;" data-svg-origin="30 0" d="M1217.74167,0 L1217.74167,169.112261 L30,169.112261 L1217.74167,0 Z" />
+            </svg>
+        </div>
+
+    }
+}

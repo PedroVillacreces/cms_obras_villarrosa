@@ -1,0 +1,36 @@
+﻿@inherits UmbracoTemplatePage
+
+@* Hear we're going to get our picture full-screen, and our company name - slogan.
+    We're going to build a responsive nav *@
+
+@foreach (var item in CurrentPage.Children)
+{
+    if (item.Name == "Contacto")
+    {
+        var phone = item.telefonos;
+        var email = item.email;
+        var address = item.direccion;
+        var titulo = item.tituloSeccion;
+
+        <section class="container" id="contacto">
+            <h2>@titulo</h2>
+            <div class="col-md-4 col-sm-2">
+                <span class="fa fa-home fa-5x"></span>
+                @Html.Raw(address)
+            </div>
+            <div class="col-md-4 col-sm-2">
+                <span class="fa fa-at fa-5x"></span>
+                <a href="mailto:pedrovillacreces@gmail.com"><p>@email</p></a>
+            </div>
+            <div class="col-md-4 col-sm-2">
+                <span class="fa fa-phone fa-5x"></span>
+                @Html.Raw(phone)
+            </div>
+        </section>
+        <div class="triangulo" style="margin-bottom:-5px;">
+            <svg style="height: auto; width: 100%;" viewBox="0 0 1170 168" class="divider" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <path transform="matrix(1,0,0,1,-40,0)" style="height: auto; width: 100%;" data-svg-origin="30 0" d="M1217.74167,0 L1217.74167,169.112261 L30,169.112261 L1217.74167,0 Z"></path>
+            </svg>
+        </div>
+    }
+}

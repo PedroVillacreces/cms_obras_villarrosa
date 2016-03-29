@@ -1,0 +1,26 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Herramienta para copia eficaz de archivos         
+-------------------------------------------------------------------------------
+
+  Inicio: domingo, 6 de marzo de 201621:55:46
+   Origen : C:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\Umbraco\
+     Destino : C:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\App_Data\NuGetBackup\20160306-215546\Umbraco\
+
+    Archivos: *.*
+	    
+  Opciones: *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	C:\users\lossaurios\documents\visual studio 2015\Projects\defiObras\defiObras\Umbraco\
+
+------------------------------------------------------------------------------
+
+               Total   Copiado   OmitidoNo coincidencia     ERROR    Extras
+Directorios:         1         0         1         0         0         0
+ Archivos:         0         0         0         0         0         0
+    Bytes:         0         0         0         0         0         0
+    Veces:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finalizado: domingo, 6 de marzo de 2016 21:55:46
+
