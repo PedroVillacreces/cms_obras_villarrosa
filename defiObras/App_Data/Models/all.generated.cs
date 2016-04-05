@@ -528,6 +528,68 @@ namespace Umbraco.Web.PublishedContentModels
 		}
 	}
 
+	/// <summary>Pie Pagina</summary>
+	[PublishedContentModel("piePagina")]
+	public partial class PiePagina : PublishedContentModel
+	{
+#pragma warning disable 0109 // new is redundant
+		public new const string ModelTypeAlias = "piePagina";
+		public new const PublishedItemType ModelItemType = PublishedItemType.Content;
+#pragma warning restore 0109
+
+		public PiePagina(IPublishedContent content)
+			: base(content)
+		{ }
+
+#pragma warning disable 0109 // new is redundant
+		public new static PublishedContentType GetModelContentType()
+		{
+			return PublishedContentType.Get(ModelItemType, ModelTypeAlias);
+		}
+#pragma warning restore 0109
+
+		public static PublishedPropertyType GetModelPropertyType<TValue>(Expression<Func<PiePagina, TValue>> selector)
+		{
+			return PublishedContentModelUtility.GetModelPropertyType(GetModelContentType(), selector);
+		}
+
+		///<summary>
+		/// Copyright
+		///</summary>
+		[ImplementPropertyType("copyright")]
+		public IHtmlString Copyright
+		{
+			get { return this.GetPropertyValue<IHtmlString>("copyright"); }
+		}
+
+		///<summary>
+		/// logo
+		///</summary>
+		[ImplementPropertyType("logo")]
+		public object Logo
+		{
+			get { return this.GetPropertyValue("logo"); }
+		}
+
+		///<summary>
+		/// menu
+		///</summary>
+		[ImplementPropertyType("menu")]
+		public object Menu
+		{
+			get { return this.GetPropertyValue("menu"); }
+		}
+
+		///<summary>
+		/// Title
+		///</summary>
+		[ImplementPropertyType("title")]
+		public string Title
+		{
+			get { return this.GetPropertyValue<string>("title"); }
+		}
+	}
+
 	/// <summary>Folder</summary>
 	[PublishedContentModel("Folder")]
 	public partial class Folder : PublishedContentModel

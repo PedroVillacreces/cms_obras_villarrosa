@@ -8,17 +8,6 @@
     if (item.Name == "Habilidades")
     {
         var titulos = item.tituloDeSeccion;
-        <script>           
-            $(document).ready(function(){
-                var distantacia = $(".graphic").offset();
-                var y = distantacia.top;
-                if($(window).screenTop() > y ){
-                    $(".graphic").fadeIn();
-                }
-                
-            
-            }); 
-        </script>
         <section class="container habilidades">
             <h2>@titulos</h2>
             @foreach (var boxes in item.Children)
@@ -27,7 +16,7 @@
                 {
                     var title = boxes.habilidad;
                     var icon = boxes.iconosHabilidad;
-                    <div  style="display:none !important;"class="col-md-3 col-sm-6 graphic">
+                    <div style="display:none !important;" class="graphic col-md-3 col-sm-6">
 
                         <img src ="@icon" alt="icono" />
                         <p id="title">@title</p>
